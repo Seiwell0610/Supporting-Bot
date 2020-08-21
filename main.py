@@ -3,6 +3,7 @@ import discord
 import asyncio
 import traceback
 from discord.ext import commands
+import os
 
 token = os.environ.get("TOKEN")
 prefix = "!"
