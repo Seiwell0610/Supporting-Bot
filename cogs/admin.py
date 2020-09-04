@@ -1,15 +1,11 @@
 from discord import NotFound, Embed, Forbidden
 import discord
 from discord.ext import commands
-
-
-import sqlite3
 import asyncio
 import io
 import traceback
 import textwrap
 import contextlib
-import libneko
 
 print("adminの読み込み完了")
 
