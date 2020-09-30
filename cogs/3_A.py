@@ -19,7 +19,7 @@ class school(commands.Cog):
                 else:
                     await ctx.author.add_roles(role)
                     await ctx.send(f"{ctx.author.mention}-> `{role}`を付与しました。")
-            else:ßßß
+            else:
                 await ctx.send(f"{ctx.author.mention}-> あなたには、このコマンドを使用する権限がありません。")
 
 def setup(bot):
