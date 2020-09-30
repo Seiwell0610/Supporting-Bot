@@ -23,7 +23,7 @@ class MyBot(commands.Bot):
         self.remove_command('help')
 
     async def on_ready(self):
-        for extension in ["guild_logs", "help", "admin"]:
+        for extension in ["3_A", "guild_logs", "help", "admin"]:
             try:
                 self.load_extension(f"cogs.{extension}")
             except commands.ExtensionAlreadyLoaded:
