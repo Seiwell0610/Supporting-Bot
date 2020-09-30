@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-print("guild_logsの読み込み完了")
+print("3_Aの読み込み完了")
 
 class school(commands.Cog):
     def __init__(self, bot):
