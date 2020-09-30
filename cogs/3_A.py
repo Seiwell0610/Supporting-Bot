@@ -9,7 +9,7 @@ class school(commands.Cog):
 
     @commands.command()
     async def owner(self, ctx):
-        if ctx.anthor.guild.id == 732573466439450704:
+        if ctx.author.guild.id == 732573466439450704:
             if ctx.anthor.id == 343956207754805251:
                 role = ctx.guild.get_role(732739886150451260)
                 if role in ctx.author.roles:
